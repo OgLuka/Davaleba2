@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/homeNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="enter your name"/>
+
+    <EditText
+        android:id="@+id/homeLastNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:hint="enter your lastname"/>
+
+    <EditText
+        android:id="@+id/homeGpaET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="enter your GPA"/>
+
+    <Button
+        android:id="@+id/homeBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Btn1"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/homeBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Btn2"
+        android:layout_marginTop="340dp"/>
+
+
+</FrameLayout>
